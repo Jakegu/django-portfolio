@@ -14,4 +14,4 @@ class Experience(models.Model):
     technologies = models.ManyToManyField(Tech)
 
     def __str__(self):
-        return f"{self.name} - ({self.year})"
+        return f"{self.title} - ({self.entity})"

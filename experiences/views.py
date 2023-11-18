@@ -4,7 +4,7 @@ from .models import Experience
 
 def experience_list(request):
     experiences = Experience.objects.all()
-    return render(request, 'experiences/experiences_list.html', {'experiences': experiences})
+    return render(request, 'experiences/experience_list.html', {'experiences': experiences})
 
 #Homework
 #Display the form in the html

@@ -5,15 +5,13 @@ header {
     top: 0px;
 }
 
-
-/* Left side */
-
+/*Left side*/
 .logo {
     width: 20%;
     height: 100%;
 }
 
-/* Right Side */
+/*Right side*/
 nav {
     width: 80%;
     height: 100%;
@@ -29,7 +27,6 @@ nav {
 
 .nav-link {
     height: 100%;
-    display: initial;
 }
 
 .nav-link a {
@@ -45,17 +42,7 @@ nav {
     border-bottom: solid 2px var(--primary-color);
 }
 
+
 #nav-check, .nav-btn {
     display: none;
-
-}
-
-#nav-check:not(:checked) ~ .nav-link {
-    height: 0px;
-    overflow: hidden;
-}
-
-#nav-check:checked ~ .nav-link {
-    height: auto;
-    overflow: auto;
 }
